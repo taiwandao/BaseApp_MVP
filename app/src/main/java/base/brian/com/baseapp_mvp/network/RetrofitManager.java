@@ -108,9 +108,9 @@ public class RetrofitManager {
 //                    throw exception;
 //                }
             }
-            if(response!=null&&response.body()!=null) {
-                LogUtil.i(">>>>>response " + response.body().string());
-            }
+//            if(response!=null&&response.body()!=null) {
+//                LogUtil.i(">>>>>response " + response.body().string());
+//            }
 
             return response;
         }
