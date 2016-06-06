@@ -1,5 +1,5 @@
 # BaseApp_MVP
-项目采用mvp架构，使用fragmentActivity进行控制，fragment进行显示
+android 项目基础架构，采用mvp架构，fragmentActivity进行控制，fragment进行显示
 
 目录结构介绍：
 base.brian.com.baseapp_mvp
@@ -41,6 +41,10 @@ base.brian.com.baseapp_mvp
   
 
 第三方包说明
+1.使用xutils 3进行日志，数据库，视图注解
+2.eventbus 组建件通信
+3.rxandroid 异步数据流处理
+4.retrofit2 网络请求
 
 compile 'com.squareup.retrofit2:retrofit:2.0.0'//REST 客户端
 
