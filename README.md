@@ -3,26 +3,45 @@
 
 目录结构介绍：
 base.brian.com.baseapp_mvp
+
   -constant-常量
+  
   -db-数据库相关，数据库采用xutils
+  
   -event-数据响应/事件结构体
+  
   -model-模型
+  
       -buiness-业务类
+      
       -entity-实体
+      
       -param-参数对象
+      
   -network-网络请求－retrofit2+okhttp
+  
   -ui
+  
       -activity控制活动
+      
       -adapter
+      
       -fragment
+      
       -presetner
+      
       -presetnerimpl
+      
       -widget自定义控件
+      
   util
+  
+  
   
   
 
 第三方包说明
+
 compile 'com.squareup.retrofit2:retrofit:2.0.0'//REST 客户端
 
 compile 'com.squareup.retrofit2:converter-gson:2.0.0'//retrofit 用到的gson格式
